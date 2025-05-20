@@ -20,8 +20,6 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: 17
-      - name: Check contents in path
-        run: tree app/
       - name: Build
         run: |
           # use timestamp as Version Code
