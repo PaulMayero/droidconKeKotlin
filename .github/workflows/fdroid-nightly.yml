@@ -21,7 +21,7 @@ jobs:
           distribution: 'adopt'
           java-version: 11
       - name: Check contents in path
-        run: ls
+        run: ls app/
       - name: Build
         run: |
           # use timestamp as Version Code
